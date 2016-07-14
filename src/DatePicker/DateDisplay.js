@@ -36,6 +36,9 @@ function getStyles(props, context, state) {
       cursor: !selectedYear ? 'default' : 'pointer',
       width: '100%',
       display: 'block',
+      fontWeight: 300,
+      WebkitFontSmoothing: 'antialiased',
+      fontSize: 36
     },
     year: {
       margin: 0,
