@@ -48,6 +48,7 @@ const getStyles = (props, context, state) => {
     floatingLabel: {
       color: hintColor,
       pointerEvents: 'none',
+      fontWeight: 400,
     },
     input: {
       WebkitTapHighlightColor: 'rgba(0,0,0,0)', // Remove mobile color flashing (deprecated style)
@@ -60,6 +61,7 @@ const getStyles = (props, context, state) => {
       color: props.disabled ? disabledTextColor : textColor,
       cursor: props.disabled ? 'not-allowed' : 'initial',
       font: 'inherit',
+      fontWeight: 400,
     },
     textarea: {
     },
@@ -78,7 +80,7 @@ const getStyles = (props, context, state) => {
   styles.input.height = '100%';
 
   if (state.hasValue) {
-    styles.floatingLabel.color = fade(props.disabled ? disabledTextColor : floatingLabelColor, 0.5);
+    styles.floatingLabel.color = focusColor;
   }
 
   if (state.isFocused) {
