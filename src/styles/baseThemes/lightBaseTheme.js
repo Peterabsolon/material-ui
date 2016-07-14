@@ -18,7 +18,6 @@ import spacing from '../spacing';
  */
 export default {
   spacing: spacing,
-  WebkitFontSmoothing: 'antialiased',
   fontFamily: '-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;',
   palette: {
     primary1Color: cyan500,

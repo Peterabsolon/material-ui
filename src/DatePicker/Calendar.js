@@ -247,6 +247,7 @@ class Calendar extends Component {
         color: calendarTextColor,
         userSelect: 'none',
         width: isLandscape ? 479 : 310,
+        WebkitFontSmoothing: 'antialiased',
       },
       calendar: {
         display: 'flex',

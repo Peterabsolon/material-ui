@@ -263,7 +263,8 @@ var Calendar = function (_Component) {
         root: {
           color: calendarTextColor,
           userSelect: 'none',
-          width: isLandscape ? 479 : 310
+          width: isLandscape ? 479 : 310,
+          WebkitFontSmoothing: 'antialiased'
         },
         calendar: {
           display: 'flex',

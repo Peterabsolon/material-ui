@@ -25,7 +25,7 @@ class CalendarActionButton extends Component {
       },
       flatButtons: {
         fontsize: 12,
-        margin: '4px 4px 8px 0px',
+        margin: '4px 8px 8px -4px',
         maxHeight: 36,
         minWidth: 64,
         padding: 0,
