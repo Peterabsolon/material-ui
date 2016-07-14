@@ -33,7 +33,8 @@ function getStyles(props) {
   };
 
   var shrinkStyles = props.shrink ? (0, _simpleAssign2.default)({
-    transform: 'perspective(1px) scale(0.75) translate3d(0, -28px, 0)',
+    top: '16px',
+    fontSize: '13px',
     pointerEvents: 'none'
   }, props.shrinkStyle) : null;
 
