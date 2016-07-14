@@ -183,6 +183,7 @@ var DateDisplay = function (_Component) {
           _react2.default.createElement(
             'div',
             { key: year, style: styles.yearTitle, onTouchTap: this.handleTouchTapYear },
+            'Select: ',
             year
           )
         ),

@@ -157,7 +157,7 @@ class DateDisplay extends Component {
           direction={this.state.transitionDirection}
         >
           <div key={year} style={styles.yearTitle} onTouchTap={this.handleTouchTapYear}>
-            {year}
+            Select: {year}
           </div>
         </SlideInTransitionGroup>
         <SlideInTransitionGroup
