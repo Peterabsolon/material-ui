@@ -50,8 +50,8 @@ var CalendarActionButton = function (_Component) {
           padding: 0
         },
         flatButtons: {
-          fontsize: 14,
-          margin: '4px 8px 8px 0px',
+          fontsize: 12,
+          margin: '4px 4px 8px 0px',
           maxHeight: 36,
           minWidth: 64,
           padding: 0

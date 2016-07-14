@@ -37,7 +37,6 @@ function getStyles(props, context, state) {
       width: '100%',
       display: 'block',
       fontWeight: 300,
-      WebkitFontSmoothing: 'antialiased',
       fontSize: 36
     },
     year: {
