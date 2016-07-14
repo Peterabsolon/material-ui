@@ -18,7 +18,7 @@ import spacing from '../spacing';
  */
 export default {
   spacing: spacing,
-  fontFamily: 'Roboto, sans-serif',
+  fontFamily: '-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;',
   palette: {
     primary1Color: cyan500,
     primary2Color: cyan700,
