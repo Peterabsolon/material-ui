@@ -21,7 +21,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  */
 exports.default = {
   spacing: _spacing2.default,
-  fontFamily: 'Roboto, sans-serif',
+  fontFamily: '-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;',
   palette: {
     primary1Color: _colors.cyan500,
     primary2Color: _colors.cyan700,
